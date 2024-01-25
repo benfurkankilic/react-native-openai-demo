@@ -15,7 +15,7 @@ setGlobalOptions(
 )
 
 const openai = new OpenAI({
-  apiKey: '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',
+  apiKey: 'YOUR_OPENAI_KEY',
 });
 
 exports.createrecipe = onDocumentCreated("/recipes/{documentId}", async (event) => {

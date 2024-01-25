@@ -1,5 +1,5 @@
 import React from 'react'
-import { TextInput, View, Text, TouchableOpacity, ActivityIndicator, ScrollView } from 'react-native'
+import { TextInput, View, Text, TouchableOpacity, ScrollView } from 'react-native'
 
 import { TaskScreenUIProps } from './TaskScreen.props'
 
