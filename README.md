@@ -1,0 +1,1 @@
+You need to fill in the `firebaseConfig` and `OpenAI Key` fields and test the application.
