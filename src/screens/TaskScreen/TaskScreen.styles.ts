@@ -8,9 +8,10 @@ export default StyleSheet.create({
     padding: 24
   },
   mainContainer: {
-    flex: 1,
+    paddingBottom: 24,
   },
   bottomContainer: {
+    marginTop: 16,
     width: '100%',
     flexDirection: 'row',
     alignItems: 'center',
@@ -21,12 +22,26 @@ export default StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold',
   },
+  subtitle: {
+    marginTop: 16,
+    marginBottom: 8,
+    textAlign: 'left',
+    fontSize: 16,
+    fontWeight: '600',
+  },
   description: {
     textAlign: 'left',
     fontSize: 12,
     fontWeight: 'normal',
     color: '#666',
-    marginTop: 8
+    marginTop: 4
+  },
+  text: {
+    textAlign: 'left',
+    fontSize: 14,
+    fontWeight: 'normal',
+    color: '#666',
+    marginTop: 4
   },
   input: {
     backgroundColor: '#eee',
