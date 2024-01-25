@@ -10,13 +10,14 @@ import { getFirestore } from 'firebase/firestore';
 
 // Initialize Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyCMWkh49X0JK10S1oMVw-yT5w2BG4XMqVw",
-  authDomain: "reactnativewithopenaidemov1.firebaseapp.com",
-  projectId: "reactnativewithopenaidemov1",
-  storageBucket: "reactnativewithopenaidemov1.appspot.com",
-  messagingSenderId: "990967664311",
-  appId: "1:990967664311:web:9bf4ab5642b84429f1c732",
-  measurementId: "G-36E2K42PTE"
+  apiKey: 'api-key',
+  authDomain: 'project-id.firebaseapp.com',
+  databaseURL: 'https://project-id.firebaseio.com',
+  projectId: 'project-id',
+  storageBucket: 'project-id.appspot.com',
+  messagingSenderId: 'sender-id',
+  appId: 'app-id',
+  measurementId: 'G-measurement-id',
 };
 
 const app = initializeApp(firebaseConfig);
